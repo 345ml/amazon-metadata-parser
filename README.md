@@ -31,3 +31,7 @@ amazonMetadataParser('https://www.amazon.com/Let-Be-Beatles/dp/B01929IA56/').the
   throw error;
 });
 ```
+
+### Support
+- [x] Normal product page
+- [x] Digital music
