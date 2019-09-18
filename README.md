@@ -24,7 +24,7 @@ amazonMetadataParser('https://www.amazon.com/Let-Be-Beatles/dp/B01929IA56/').the
   * Response
   * {
   *   title: 'Let It Be',
-  *   image: 'IMAGE_URL',
+  *   image: 'https://m.media-amazon.com/images/I/81KGh-kOzYL._SS500_.jpg',
   * }
   */
 }).catch((error) => {
