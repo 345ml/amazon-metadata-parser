@@ -3,7 +3,11 @@ const parse5 = require('parse5');
 
 const amazonMetadataParser = (url) => {
   return new Promise((resolve, reject) => {
-    fetch(url)
+    fetch(url, {
+      headers: {
+        'Content-type': 'text/html',
+      }
+    })
       .then(response => response.text())
       .then((html) => {
         const document = parse5.parse(html);
