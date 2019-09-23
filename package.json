@@ -1,6 +1,6 @@
 {
   "name": "amazon-metadata-parser",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Get metadata from Amazon product pages for Node.js",
   "keywords": [
     "amazon",
