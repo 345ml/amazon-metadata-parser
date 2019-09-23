@@ -1,16 +1,9 @@
 const fetch = require('isomorphic-unfetch');
 const parse5 = require('parse5');
 
-const NEST = {
-  COM_NORMAL: 13,
-  COM_MUSIC: 12,
-  JP_NORMAL: 18,
-  JP_MUSIC: 12,
-}
-
 const amazonMetadataParser = (url) => {
   return new Promise((resolve, reject) => {
-    fetch(encodeURI(url), {
+    fetch(url, {
       headers: {
         'Content-type': 'text/html',
       }
